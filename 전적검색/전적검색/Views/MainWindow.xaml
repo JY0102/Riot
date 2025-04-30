@@ -1,0 +1,60 @@
+﻿<Window x:Class="전적검색.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:전적검색"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1034">
+    <Window.Resources>
+        <local:InfoConverter x:Key="infoConverter"/>
+    </Window.Resources>
+    <Window.DataContext>
+        <local:MainViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <!-- 전적 입력 받기 -->
+        <StackPanel Grid.Row="0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Label Content=" 이름" Grid.Column="1" Height ="30" Grid.ColumnSpan="2" Margin="0,6,200,6"/>
+                <TextBox x:Name="GameName" Text="{Binding GameName}" Grid.Column="2" Margin="10,10,10,10" Width="180" FontSize="14"/>
+                <ComboBox x:Name="GameType" Grid.Column="3" Margin="10,10,10,10" SelectedIndex="0">
+                    <ComboBoxItem Content="normal"/>
+                    <ComboBoxItem Content="ranked"/>
+                </ComboBox>
+                <Label Content=" 출력개수 " Grid.Column="4" Height ="30" Margin="10"/>
+                <TextBox x:Name="Count" Text ="{Binding Count}" Grid.Column="5" Margin="10,10,10,10" Width="70" TextAlignment="Center" FontSize="18" />
+                <Button x:Name="SearchButton" Command="{Binding SearchCommand}" Content="검색" Grid.Column="6" Margin="10,10,0,10" Width="60" HorizontalAlignment="Left" />
+            </Grid>
+        </StackPanel>
+        <ListBox ItemsSource="{Binding Path=Matches}" Grid.Row="1" SelectedItem="{Binding SelectedMatch}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock>
+                        <TextBlock>
+                            <TextBlock.Text>
+                                <Binding Converter="{StaticResource infoConverter}" ConverterParameter="championName"/>
+                            </TextBlock.Text>
+                        </TextBlock>
+                    </TextBlock>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+    </Grid>
+</Window>
