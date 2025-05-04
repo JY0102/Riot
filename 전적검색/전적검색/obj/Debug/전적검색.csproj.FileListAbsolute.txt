@@ -17,3 +17,26 @@ C:\Users\bit\Desktop\WPF\전적검색\전적검색\obj\Debug\전적검색.csproj
 C:\Users\bit\Desktop\WPF\전적검색\전적검색\obj\Debug\전적검색.csproj.Up2Date
 C:\Users\bit\Desktop\WPF\전적검색\전적검색\obj\Debug\전적검색.exe
 C:\Users\bit\Desktop\WPF\전적검색\전적검색\obj\Debug\전적검색.pdb
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\bin\Debug\전적검색.exe.config
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\bin\Debug\전적검색.exe
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\bin\Debug\전적검색.pdb
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\bin\Debug\Riot.dll
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\bin\Debug\Riot.pdb
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\obj\Debug\전적검색.csproj.AssemblyReference.cache
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\obj\Debug\Controls\fow.g.cs
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\obj\Debug\Views\MainWindow.g.cs
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\obj\Debug\Views\App.g.cs
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\obj\Debug\전적검색_MarkupCompile.cache
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\obj\Debug\전적검색_MarkupCompile.lref
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\obj\Debug\Controls\fow.baml
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\obj\Debug\Views\MainWindow.baml
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\obj\Debug\전적검색.g.resources
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\obj\Debug\전적검색.Properties.Resources.resources
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\obj\Debug\전적검색.csproj.GenerateResource.cache
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\obj\Debug\전적검색.csproj.CoreCompileInputs.cache
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\obj\Debug\전적검색.csproj.Up2Date
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\obj\Debug\전적검색.exe
+C:\Users\jy468\OneDrive\바탕 화면\Riot\전적검색\전적검색\obj\Debug\전적검색.pdb
