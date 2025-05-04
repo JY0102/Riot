@@ -40,7 +40,7 @@
     </Reference>
     <Reference Include="Riot, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Riot.dll</HintPath>
+      <HintPath>..\..\..\C_shop-Riot\C_shop-Riot\Riot\Riot\bin\Debug\Riot.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -63,8 +63,16 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Commands\RelayCommand.cs" />
+    <Compile Include="Controls\fow.xaml.cs">
+      <DependentUpon>fow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Converters\Converter.cs" />
+    <Compile Include="DB\Database.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
+    <Page Include="Controls\fow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -101,6 +109,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="에시.text" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Views\App.config" />
